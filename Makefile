@@ -1,5 +1,5 @@
-SRC_PATH = "../Downloads/kontur_population_20231101.gpkg"
-DST_PATH = "a.pmtiles"
+SRC_PATH = "/Users/hfu/Downloads/kontur_population_20231101.gpkg"
+DST_PATH = "kpop.pmtiles"
 
 database:
 	rm -rf db; mkdir db; \
