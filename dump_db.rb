@@ -3,8 +3,8 @@ require 'json'
 require 'h3'
 
 LAYER = 'kpop'
-MINZOOMS = [0, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-MAXZOOMS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+MINZOOMS = [0, 2, 3, 4, 5, 6, 7, 8, 9]
+MAXZOOMS = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 $db = LMDB.new('db', :mapsize => 1000 * 1024 * 1024 * 1024).database
 

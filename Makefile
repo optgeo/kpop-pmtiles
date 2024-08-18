@@ -7,7 +7,7 @@ database:
 
 produce:
 	ruby dump_db.rb | tippecanoe -o $(DST_PATH) --detect-longitude-wraparound \
-	--minimum-zoom=0 --maximum-zoom=10 --force
+	--minimum-zoom=0 --maximum-zoom=9 --force
 
 upload:
 	aws s3 cp $(DST_PATH) s3://us-west-2.opendata.source.coop/smartmaps/foil4gr1/
